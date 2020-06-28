@@ -1,0 +1,12 @@
+{
+  "name": "site",
+  "version": "1.0.0",
+  "description": "Personal website",
+  "main": "index.js",
+  "repository": "https://github.com/sjordan8/site",
+  "author": "Sean Jordan <jordansean10@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
