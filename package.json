@@ -7,6 +7,7 @@
   "author": "Sean Jordan <jordansean10@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "path": "^0.12.7"
   }
 }
