@@ -1,5 +1,4 @@
 const express = require('express');
-const path = require('path');
 const app = express();
 const port = 3000;
 
@@ -7,12 +6,12 @@ app.use(express.static('public'));
 
 app.get('/', (req, res) => {
     const options = {
-        root: path.join(__dirname, 'index.html'),
+        root: __dirname,
     };
 
     res.sendFile('index.html', options, (error) => {
         if (error) {
-            console.log('Failed to send index.html');
+            console.log(error);
         } else {
             console.log('Sent index.html');
         }
